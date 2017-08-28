@@ -2,10 +2,10 @@ const webpack = require('webpack');
 const path = require('path');
 
 var htmlWebpackPlugin = require('html-webpack-plugin'),
-    htmlWebpackPluginCongig;
+    htmlWebpackPluginConfig;
 
 // config for the HTML Webpack plugin
-htmlWebpackPluginCongig = new htmlWebpackPlugin({
+htmlWebpackPluginConfig = new htmlWebpackPlugin({
     template: path.join(__dirname, 'app', 'index.html'),
     filename: 'index.html',
     inject: 'body'
@@ -53,7 +53,7 @@ module.exports = {
         path: paths.OUTPUT
     },
     plugins: [
-        htmlWebpackPluginCongig,
+        htmlWebpackPluginConfig,
         new webpack.ProvidePlugin({
             $: 'jquery',
             _: 'underscore'
