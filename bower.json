@@ -1,0 +1,21 @@
+{
+  "name": "backbone-webpack-seed",
+  "description": "A BackboneJS seed application that uses Webpack 3",
+  "main": "webpack.config.js",
+  "authors": [
+    "usman-tahir <tahir.usman.ali94@outlook.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/usman-tahir/backbone-webpack-seed",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
